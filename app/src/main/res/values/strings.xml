@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">myApotek</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="location">Alam Farma, Gas Alam</string>
+    <string name="kode_rak">Kode Rak</string>
+    <string name="ukuran">Ukuran</string>
+    <string name="varian">Varian</string>
+    <string name="satuan">Satuan</string>
+    <string name="stock">Stock</string>
+    <string name="harga">Harga</string>
+    <string name="nama_obat">Nama Obat</string>
+    <string name="tambah">TAMBAH</string>
+    <string name="update">Update</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="daftar_obat">Daftar Obat</string>
+    <string name="tambah_obat">Tambah Obat</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="history">History</string>
+    <string name="update_data_obat">Update Data Obat</string>
+    <string name="data_obat_keluar">Daftar Obat Keluar</string>
+</resources>

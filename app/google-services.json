@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1010398027713",
+    "firebase_url": "https://myapotek-4691f.firebaseio.com",
+    "project_id": "myapotek-4691f",
+    "storage_bucket": "myapotek-4691f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010398027713:android:54e9d3e408d3fba6",
+        "android_client_info": {
+          "package_name": "com.yudha.myapotek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010398027713-9mhqik4aahda4gq6dhe1jk007uiq6t8h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yudha.myapotek",
+            "certificate_hash": "15717acb9e17d9c33774dda27793232f7889fdf6"
+          }
+        },
+        {
+          "client_id": "1010398027713-2le6h0up25j968uhi7u79760ctevo917.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaGKMgfMY3xdABAPB2VBJfM_7VR0YZPJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010398027713-2le6h0up25j968uhi7u79760ctevo917.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

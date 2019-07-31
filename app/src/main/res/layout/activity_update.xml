@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dashboard"
+    tools:context=".UpdateAct">
+
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/navigation_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/left_arrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mlight"
+        android:text="@string/update_data_obat"
+        android:textColor="@color/hitam"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/view5"
+        app:layout_constraintEnd_toStartOf="@+id/imageView8"
+        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintStart_toEndOf="@+id/btn_back"
+        app:layout_constraintTop_toTopOf="@+id/view5"
+        app:layout_constraintVertical_bias="0.509" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/medicine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:scrollbars="none"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/view5"
+        tools:layout_editor_absoluteX="42dp">
+
+        <LinearLayout
+            android:id="@+id/sc_5"
+            android:layout_width="350dp"
+            android:layout_height="457dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/mregular"
+                android:text="@string/nama_obat"
+                android:textColor="@color/hitam"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/nama_obat"
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:singleLine="true"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:inputType="textCapWords"
+                android:background="@drawable/bg_edit_corner" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/mregular"
+                android:text="@string/harga"
+                android:textColor="@color/hitam"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/harga"
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:singleLine="true"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:inputType="numberDecimal"
+                android:background="@drawable/bg_edit_corner" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/mregular"
+                android:text="Id Obat"
+                android:textColor="@color/hitam"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/idObat"
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:singleLine="true"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:inputType="textCapWords"
+                android:background="@drawable/bg_edit_corner" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/mregular"
+                android:text="@string/stock"
+                android:textColor="@color/hitam"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/stock"
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:singleLine="true"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:inputType="number"
+                android:background="@drawable/bg_edit_corner" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/mregular"
+                android:text="@string/kode_rak"
+                android:textColor="@color/hitam"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/kd_rak"
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:singleLine="true"
+                android:inputType="textCapWords"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_edit_corner" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/mregular"
+                android:text="@string/satuan"
+                android:textColor="@color/hitam"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/satuan"
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:singleLine="true"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:inputType="textCapWords"
+                android:background="@drawable/bg_edit_corner" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/mregular"
+                android:text="@string/varian"
+                android:textColor="@color/hitam"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/varian"
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:singleLine="true"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:inputType="textCapWords"
+                android:background="@drawable/bg_edit_corner" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/mregular"
+                android:text="@string/ukuran"
+                android:textColor="@color/hitam"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/ukuran"
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:singleLine="true"
+                android:inputType="textCapWords"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/bg_edit_corner" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_btn_tambah"
+        android:text="@string/update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+</android.support.constraint.ConstraintLayout>
